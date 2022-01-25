@@ -14,7 +14,7 @@ import  './App.css'
 
 
     useEffect(() => {
-      fetch(`http://api.weatherapi.com/v1/forecast.json?key=9f8b6bcc1139454182d232952222201&q=${inputText}&days=3`)
+      fetch(`https://api.weatherapi.com/v1/forecast.json?key=9f8b6bcc1139454182d232952222201&q=${inputText}&days=3&aqi=no&alerts=no`)
       .then(response => response.json())
       .then(data => {
         setWeatherData(data.forecast.forecastday)
