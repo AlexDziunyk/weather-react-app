@@ -1,0 +1,56 @@
+.statistics-block {
+  color: white;
+  margin-left: 5%;
+  font-size: 30px;
+}
+
+.temp-block {
+  color: white;
+}
+
+.tempInfo {
+  margin-top: 2%;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.6);
+  box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.6);
+  padding: 10px;
+}
+
+.windInfo {
+  margin-top: 2%;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.6);
+  box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.6);
+  padding: 10px;
+}
+
+.sunMoonInfo {
+  margin-top: 2%;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.6);
+  box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.6);
+
+  padding: 10px;
+}
+
+.button {
+  cursor: pointer;
+  background-color: white;
+  color: #3b3b3b;
+  border: 2px solid #3b3b3b;
+  font-size: 24px;
+  border-radius: 5px;
+  margin-left: 7px;
+  margin-top: 2%;
+  padding: 7px;
+  transition: 0.2s
+}
+
+.button:hover{
+  background-color: #3b3b3b;
+  color: white;
+  transition: 0.2s;
+}

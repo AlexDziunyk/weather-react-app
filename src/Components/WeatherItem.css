@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.wrapper {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 130px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #3b3b3b;
+  padding: 40px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.6);
+  box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.6);
+  width: 160px;
+  height: 262px;
+  transition: 0.4s;
+}
+
+.container:active {
+  -webkit-box-shadow: 2px 2px 2px -2px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 2px 2px 2px -2px rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 2px 2px -2px rgba(0, 0, 0, 0.6);
+}
+
+.container:hover{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #3b3b3b;
+  padding: 50px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  transition: 0.4s;
+  -webkit-box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.6);
+  box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.6);
+}
+
+.temp {
+  font-size: 30px;
+  text-align: center;
+}
+
+.temp-text {
+  display: inline-block;
+}
+
+.image {
+  display: inline-block;
+}
+
+.city {
+  font-size: 22px;
+}
+
+.country {
+  color: grey;
+}
+
+.humidity-image {
+  display: inline-block;
+}
+
+.humidity-text {
+  display: inline-block;
+}
