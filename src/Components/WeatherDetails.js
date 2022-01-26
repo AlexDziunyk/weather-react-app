@@ -12,7 +12,6 @@ import { Grid, Container} from '@mui/material';
 
     const goBack = () => {
       navigate(-1)
-      
     }
 
     return (
@@ -82,6 +81,7 @@ import { Grid, Container} from '@mui/material';
                         
                       }}
                     />
+                    
                   </div>
             
                 </Grid>
