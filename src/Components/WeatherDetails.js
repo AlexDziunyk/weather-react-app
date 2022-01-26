@@ -25,15 +25,15 @@ import { Grid, Container} from '@mui/material';
                 <Grid item xs={12}>
                   <button onClick={goBack} className="button">Go back</button>
                 </Grid>
-                <Grid item xs={12} xl={4}>
+                <Grid item xs={12} lg={4}>
                   <div>
                     <div className="tempInfo">
 
                       <div >{date.toLocaleDateString('en-US', {year: 'numeric', month: 'long', day: 'numeric' })}</div>
                       <div >Location: {props.city}, {props.country}</div>
-                      <div>Max Temperature: {props.weather.day.maxtemp_c}</div>
-                      <div>Min Temperature: {props.weather.day.mintemp_c}</div>
-                      <div>Avg Temperature: {props.weather.day.avgtemp_c}
+                      <div>Max Temperature: {props.weather.day.maxtemp_c} &deg;C</div>
+                      <div>Min Temperature: {props.weather.day.mintemp_c} &deg; C</div>
+                      <div>Avg Temperature: {props.weather.day.avgtemp_c} &deg; C
                       </div>
 
                   
@@ -41,9 +41,9 @@ import { Grid, Container} from '@mui/material';
                     </div>
 
                     <div className="windInfo">
-                    <div>Max wind: {props.weather.day.maxwind_kph}</div>
-                    <div>Avg humidity: {props.weather.day.avghumidity}</div>
-                    <div>Chance of rain: {props.weather.day.daily_chance_of_rain}</div>
+                    <div>Max wind: {props.weather.day.maxwind_kph} km/h</div>
+                    <div>Avg humidity: {props.weather.day.avghumidity} %</div>
+                    <div>Chance of rain: {props.weather.day.daily_chance_of_rain} %</div>
                     <div>Condition: {props.weather.day.condition.text}</div>
                       
                     </div>
@@ -58,7 +58,7 @@ import { Grid, Container} from '@mui/material';
                   </div> 
                   
                 </Grid>
-                <Grid item xs={12}  xl={7}>
+                <Grid item xs={12} lg={7}>
                 
                   <div className="temp-block">
                     <Line
